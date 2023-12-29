@@ -1,0 +1,22 @@
+{
+  "name": "multi-window-worker",
+  "version": "1.0.0",
+  "description": "A multi-window worker test",
+  "main": "index.js",
+  "repository": "https://github.com/yuancong-liu/multi-window-worker.git",
+  "author": "YUAN-TSUNG <satoshi.liu@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/sharedworker": "^0.0.111",
+    "vite": "^5.0.10"
+  }
+}
